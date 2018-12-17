@@ -1,0 +1,6 @@
+let test = .rest;
+
+let object = {value: 1, rest: {value: 2, rest: {value: 3, rest: null}}};
+
+console.log((object.rest).value);
+
